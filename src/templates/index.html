@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title>Your Very Handsome Website</title>
+    <title>Cert App</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -28,43 +28,105 @@
   </head>
 
   <body>
-    <!-- Add your site or application content here -->
-    <div class="h-screen flex">
-      <div class="w-64 py-5 px-5 bg-gray-100 border-r">
+    <div class="w-full h-screen flex">
+      <!-- SIDEBAR -->
+      <div class="w-64 py-5 px-5 bg-gray-50">
         <img src="images/content/logo.svg" />
-        <nav class="mt-8">
-          <h2 class="text-md text-gray-500 font-medium uppercase tracking-wide">MENU</h2>
-          <div class="mt-2 -mx-3">
-            
-          <a href="#" class= "flex justify-between px-4 py-2 bg-blue-200 rounded-md">
-          <span class="text-sm font-semibold text-gray-700">All</span>
-          <span class="text-md font-semibold text-gray-700">11</span>
-          </a>
+        <!-- MENU -->
+        <div class="mt-8">
+          <h2 class="text-md text-gray-500 font-medium uppercase tracking-wide">
+            MENU
+          </h2>
 
-          <a href="#" class= "flex justify-between px-4 py-2  rounded-md">
-            <span class="text-sm font-normal text-gray-700">All</span>
-            <span class="text-md font-normal text-gray-700">11</span>
+          <div class="mt-3 -mx-3">
+            <a
+              href="#"
+              class="flex justify-between px-4 py-2 bg-blue-200 rounded-md"
+            >
+              <span class="text-sm font-semibold text-gray-700">All</span>
+              <span class="text-sm font-semibold text-gray-700">11</span>
             </a>
-            
-            <a href="#" class= "flex justify-between px-4 py-2  rounded-md">
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Review</span>
+              <span class="text-sm font-normal text-gray-700">6</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Pending</span>
+              <span class="text-sm font-normal text-gray-700">3</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Cancel</span>
+              <span class="text-sm font-normal text-gray-700">1</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Junk</span>
+              <span class="text-sm font-normal text-gray-700">1</span>
+            </a>
+          </div>
+        </div>
+        <!-- SECTION SIDEBAR -->
+        <div class="mt-8">
+          <h2 class="text-md text-gray-500 font-medium uppercase tracking-wide">
+            USER
+          </h2>
+          <div class="mt-3 -mx-3">
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
               <span class="text-sm font-normal text-gray-700">All</span>
-              <span class="text-md font-normal text-gray-700">11</span>
-              </a>
-
-              <a href="#" class= "flex justify-between px-4 py-2  rounded-md">
-                <span class="text-sm font-normal text-gray-700">All</span>
-                <span class="text-md font-normal text-gray-700">11</span>
-                </a>
-
-                <a href="#" class= "flex justify-between px-4 py-2  rounded-md">
-                  <span class="text-sm font-normal text-gray-700">All</span>
-                  <span class="text-md font-normal text-gray-700">11</span>
-                </a>
-        </nav>
+              <span class="text-sm font-normal text-gray-700">8</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Pending</span>
+              <span class="text-sm font-normal text-gray-700">2</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700"
+                >Need Confirm</span
+              >
+              <span class="text-sm font-normal text-gray-700">5</span>
+            </a>
+            <a href="#" class="flex justify-between px-4 py-2 rounded-md">
+              <span class="text-sm font-normal text-gray-700">Cancel</span>
+              <span class="text-sm font-normal text-gray-700">1</span>
+            </a>
+          </div>
+        </div>
       </div>
-      </div>
+      <!-- END SIDEBAR -->
+
       <div class="flex-1 min-w-0 bg-white">
-        <div class="border-b-2 border-gray-200"></div>
+        <header class="mt-3 px-6 ml-1.5">
+          <div class="relative">
+            <span class="absolute -ml-1.5 mt-1.5 flex items-center">
+              <svg
+                width="24"
+                height="24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke="#9CA3AF"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35"
+                />
+              </svg>
+            </span>
+            <input
+              class="
+                -ml-4
+                rounded-md
+                -px-2
+                py-1
+                pl-10
+                border-2 border-blue-400
+                text-gray-900 text-md
+                placeholder-gray-500
+              "
+              placeholder="Search"
+            />
+          </div>
+        </header>
       </div>
     </div>
 
